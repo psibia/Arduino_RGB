@@ -12,7 +12,7 @@ SibiaLights.Blue
 
 SibiaLights.GetColors();
 Данный метод присваивает трем статическим свойствам (Red, Green, Blue) значение
-пикселя на эллипсе
+пикселя, который находится под курсором мыши на элементе фреймворка
 Фактически данный метод имеет следующую конфигурацию, которая опускается при вызове:
 
 public static void GetColors<T>(T element, MouseButtonEventArgs e)
